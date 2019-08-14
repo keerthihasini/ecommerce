@@ -1,0 +1,50 @@
+body
+{
+margin: 0;
+padding: 0;
+background: url(download2.jpg);
+background-size: cover;
+background-position: center;
+font-family: sans-serif;
+}
+.admin{
+width:360px;
+padding:10px 0 0;
+margin:auto;
+}
+.form{
+position: relative;
+z-indez: 1;
+background:brown;
+margin: 0 auto 100px;
+max-width: 360px;
+padding: 45px;
+text-align:left;
+font-size: 20px;
+color:white;
+}
+.form input{
+font-family: "Roboto", sans-serif;
+outline: 1;
+background: #f2f2f2;
+width: 100%;
+boder: 0;
+margin: 0 0 15px;
+padding: 10px;
+box-sizing: border-box;
+font-size: 18px;
+}
+.form button
+{
+font-family: "Roboto", sans-serif;
+text-transform:uppercase;
+outline:0;
+background:blue;
+width:100%;
+border:0px;
+padding:10px;
+color:white;
+font-size:14px;
+cursor:pointer;
+}
+

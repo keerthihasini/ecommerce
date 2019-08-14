@@ -1,0 +1,43 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style2.css">
+<title>Category</title>
+<script>
+var arr=[];
+function validate()
+{
+var categoryname=document.forms["myform"]["categoryname"].value;
+if(console.log(categoryname.trim().length==0))
+{
+console.log("there is no character")
+}
+else
+{
+var user={"categoryname":categoryname}
+arr.push(user)
+}}
+function display()
+{
+document.write("<table border='2'>")
+document.write("<th>categoryname</th>")
+for(i=0;i<arr.length;i++)
+{
+document.write("<tr>")
+document.write("<td>")
+document.write(arr[i].categoryname)
+document.write("</td>")
+document.write("</tr>")
+}}
+</script>
+</head>
+<body>
+<h1>category Page</h1>
+<div class="admin">
+<div class="form">
+<form name="myform">
+Enter the categoryname<br>
+<input type='text' name='categoryname' placeholder='product name' size='40'/><br>
+<input type='reset' value='Proceed' onclick='validate()'/>
+<input type='button' value='Display' onclick='display()'/></div></div></form>
+</body>
+</html>
